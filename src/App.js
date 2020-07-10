@@ -66,6 +66,8 @@ function App() {
           {collegeList.length < 50 ?
             <div ref={setElement}>
               <div className="empty-card">
+                {/* To show two empty placeholders
+                 */}
                 {[1, 2].map(i =>
                   <div className="bg-white rounded-6 skeleton-group-box">
                     <div className="skelton-group" key={i}></div>

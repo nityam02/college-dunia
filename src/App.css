@@ -9,12 +9,20 @@
 }
 
 .view-college-listing .colleges {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
+  grid-column-gap: 64px;
+  grid-row-gap: 78px;
 }
 
 .empty-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  grid-column-gap: 64px;
+  grid-row-gap: 78px;
+  margin-top: 78px;
 }
 
 .skelton-group:empty {
@@ -41,7 +49,6 @@
   border-radius: 4px;
   box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
   border: 0.2px solid rgba(68, 68, 68, 0.2px);
-  margin: 0px 64px 78px 0px;
   padding: 12px 10px;
   transition: all 0.3s;
 }

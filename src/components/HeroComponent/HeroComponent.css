@@ -1,16 +1,13 @@
 .component-college-container {
-  width: 639px;
   min-height: 377px;
   position: relative;
   border-radius: 4px;
   box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
   border: 0.2px solid rgba(68, 68, 68, 0.2);
   background-color: #ffffff;
-  margin: 0px 64px 78px 0px;
 }
 
 .clg-img {
-  width: 639px;
   border-radius: 4px;
   height: 233px;
 }
@@ -20,9 +17,9 @@
   position: absolute;
   top: 0;
   background-color: rgba(25, 25, 25, 0.4);
-  width: 639px;
   border-radius: 4px;
   height: 233px;
+  width: 100%;
 }
 
 .component-college-container .content-container {
