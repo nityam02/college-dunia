@@ -1,0 +1,176 @@
+.component-college-container {
+  width: 639px;
+  min-height: 377px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: 0.2px solid rgba(68, 68, 68, 0.2);
+  background-color: #ffffff;
+  margin: 0px 64px 78px 0px;
+}
+
+.clg-img {
+  width: 639px;
+  border-radius: 4px;
+  height: 233px;
+}
+
+.clg-img-overlay {
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  background-color: rgba(25, 25, 25, 0.4);
+  width: 639px;
+  border-radius: 4px;
+  height: 233px;
+}
+
+.component-college-container .content-container {
+  padding: 32px 17px 17px 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-college-container .college-nearest-place {
+  margin-right: 10px;
+}
+
+.component-college-container .college-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.component-college-container .college-original-fees {
+  text-decoration: line-through;
+  font-size: 11px;
+}
+
+.component-college-container .college-marking {
+  font-weight: bold;
+}
+
+.component-college-container .match-percenatge {
+  color: #37b396;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.component-college-container .fee-cycle {
+  margin: 10px 0px 32px 0px;
+  font-size: 11px;
+}
+.component-college-container .college-amentie {
+  color: #37b396;
+}
+.component-college-container .college-discount {
+  width: 29px;
+  height: 14px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #dd1c26;
+}
+.component-college-container .college-discounted-fees {
+  font-size: 28px;
+  font-weight: bold;
+  color: #dd1c26;
+}
+.component-college-container .college-address {
+  margin: 12px 0px;
+}
+
+.component-college-container .college-nearest-places {
+  margin-bottom: 10px;
+}
+.component-college-container .college-amenties {
+  width: 347px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccf5e7;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.component-college-container .clg-promoted {
+  width: 152px;
+  height: 33px;
+  background-color: #68a7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+}
+
+.component-college-container .text-capitalize {
+  text-transform: capitalize;
+}
+.component-college-container .college-amount {
+  justify-content: flex-end;
+}
+
+.component-college-container .text-right {
+  text-align: right;
+}
+
+.component-college-container .rating-container {
+  width: 75px;
+  height: 53px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5a626;
+}
+
+.component-college-container .rating-container {
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.component-college-container .clg-ranking {
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.component-college-container .flex {
+  display: flex;
+}
+
+.component-college-container .w-full {
+  width: 100%;
+}
+
+.component-college-container .w-70 {
+  width: 70%;
+}
+
+.component-college-container .w-30 {
+  width: 30%;
+}
+.component-college-container .tag-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.component-college-container .tag-holder {
+  width: 155px;
+  height: 34px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-right: 8px;
+}

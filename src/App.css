@@ -1,0 +1,53 @@
+.view-college-listing {
+  padding: 50px 56px;
+}
+
+.view-college-listing .main-heading {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.view-college-listing .colleges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty-card {
+  display: flex;
+}
+
+.skelton-group:empty {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(
+      100deg,
+      hsla(0, 0%, 92.2%, 0),
+      hsla(0, 0%, 100%, 0.5) 50%,
+      hsla(0, 0%, 100%, 0) 80%
+    ),
+    linear-gradient(#d3d3d3 15px, transparent 0),
+    linear-gradient(#d3d3d3 15px, transparent 0),
+    linear-gradient(#d3d3d3 22px, transparent 0),
+    linear-gradient(#d3d3d3 18px, transparent 0);
+  background-repeat: repeat-y;
+  background-size: 50px 200px, 200px 200px, 300px 200px, 0px 100px, 100px 200px;
+  background-position: 0 0, 0 10px, 0 40px, 0 70px, 0 130px;
+  animation: shine 1s infinite;
+}
+
+.skeleton-group-box {
+  width: 639px;
+  border-radius: 4px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: 0.2px solid rgba(68, 68, 68, 0.2px);
+  margin: 0px 64px 78px 0px;
+  padding: 12px 10px;
+  transition: all 0.3s;
+}
+
+@keyframes shine {
+  to {
+    background-position: 70% 0, 0px 10px, 0px 40px, 0px 70px, 0px 130px;
+  }
+}
